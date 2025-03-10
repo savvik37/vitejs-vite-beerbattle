@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/SF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 30px;
+}
+
+.navibar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navibaroptions {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.postcontainer {
+  background-color: aqua;
+}
+
+.photos {
+  margin: auto;
+  align-items: center;
+}
+
+img {
+  height: calc(50vh - 0px);
+  width: auto;
+  margin: 0 auto;
+}
