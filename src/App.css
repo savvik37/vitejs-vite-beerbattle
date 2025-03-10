@@ -31,6 +31,11 @@ body {
   padding: 10px;
 }
 
+.postcontainer h2{
+  font-size: xx-large;
+  margin-top: 30px;
+}
+
 .photos{
   display: flex;
   align-items: center;
@@ -45,4 +50,30 @@ img {
   height: calc(50vh - 0px);
   width: auto;
   margin: 0 auto;
+}
+
+.badges{
+  display: flex;
+}
+
+.badge1{
+  margin: 2px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+  padding: 10px;
+  background-color: rgb(175, 175, 175);
+  color: black;
+  width: 100px;
+}
+
+.badge2{
+  margin: 2px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+  padding: 10px;
+  background-color: rgb(210, 88, 7);
+  color: black;
+  width: 100px;
 }

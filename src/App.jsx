@@ -46,18 +46,10 @@ function App() {
                 </div>
               </Slider>
             </div>
-            <div class="badges">
-              <div>badge1</div>
-              <div>badge2</div>
-            </div>
-            <p>
-              lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum
-              lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum
-              lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum
-              lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum
-              lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum
-              lorem impsum lorem impsum lorem impsum lorem impsum{' '}
-            </p>
+            <h2>Some beer fight title</h2>
+
+            <p>This is an example description of a beer post.</p>
+            <p>Some descriptions will go here.</p>
           </div>
         </div>
       </div>
