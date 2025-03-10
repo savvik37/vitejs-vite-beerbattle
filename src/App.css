@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'MyCustomFont';
-  src: url('/fonts/SF.ttf') format('truetype');
+  font-family: 'sanfran';
+  src: url('/public/SF-Pro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   margin: 30px;
+  font-family: "sanfran";
+  background-color: rgb(92, 79, 64);
+  color: orange;
 }
 
 .navibar {
@@ -17,17 +20,25 @@ body {
 
 .navibaroptions {
   display: flex;
-  justify-content: space-between;
+  font-weight: 1000;
+  align-items: center;
+  justify-content: space-around;
   width: 100px;
 }
 
 .postcontainer {
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0.126);
+  padding: 10px;
 }
 
-.photos {
-  margin: auto;
+.photos{
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.sliderthing{
+  width: 70vw;
 }
 
 img {

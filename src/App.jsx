@@ -15,8 +15,9 @@ function App() {
 
   const settings = {
     arrows: true,
+    dots: true,
     infinite: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -27,8 +28,7 @@ function App() {
         <div className="navibar">
           <h1>beer battle</h1>
           <div className="navibaroptions">
-            <p>main</p>
-            <p>about</p>
+            <p>2025</p>
           </div>
         </div>
         <div className="content">
