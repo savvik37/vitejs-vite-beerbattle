@@ -7,7 +7,7 @@ import Slider from 'react-slick';
 const BlogPost = ({ title, content, photos }) => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     arrows: false,
     speed: 500,
     slidesToShow: 1,

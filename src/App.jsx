@@ -41,7 +41,7 @@ function App() {
           "https://shorturl.at/hi5gW"
           ]}
         />
-          <BlogPost 
+        <BlogPost 
           title="Olde Trip - Bitter" 
           content="Exploring various beers from around the world!" 
           photos={["https://shorturl.at/KEJQS", "https://shorturl.at/OxPBx"]}
@@ -49,7 +49,7 @@ function App() {
         <BlogPost 
           title="Welcome to beer battles bitches" 
           content="Exploring various beers from around the world!" 
-          photos={[""]}
+          photos={["https://lh3.googleusercontent.com/fife/ALs6j_H2rBOBdj0U4bmsvP6ba2Ik4CdZZQzn5pETZP_QIL9VHB5rLvHelHQJmOHLP5jZXeuRXWAR90_vzYpT9U_uwOHQX-MN1QuyP2eNmZjshqNizTDj-6JVjpiGrvGzxyRAV1nM3LutYBcT9HYKHS1Mn09guv6k0MNqW4DAA5XO6L0rmQurOeASjuuoRXBI9Ux-VBaNlwhD-1bXsrKtzQz9yBrKQL8OoIESBwxUUUygVfxMDNyUGxYMkyTpRFfyfeTON8DDbYzqTpisMg5JF0RMmKAR8x1C5VEhF8NJs7PV9N4hnkr3nq3b0tfobGPf6PEzaTRlvb7fyDlAcxDRaj9-q6pDmmvyevDBb_fUhXuEKB-JavaaSoUYQJSIy5fQTJErjzHeX_OM6DhFndVPaI7aWEhGe13_ayBLqB5eh5QdhY7fHmQSGrhPFv781uDMXSVCmpFZSumvjsu8_iYFXTDuLJW5fMQ8HmIzfRU-KtCwIHVku3TGgnQZiZgVdpNEXS1iCTnj7LTe21gkmRs3QA-CpQEhtQSjHUNa5RVcSP6VZP1M6cy1iG_69G-fhDblsSWlEBX2CyeLqI5T9gk6BCQU9IflgagRoYmYgjBFE_Vg9nfyM_zGC3FRvOAevmTtbe2wLqAeyrjxttm5zgXuACniqM6XjbnE88OngMvkC6RF-3PZM_-L1jDMxyv8mWzOykqVqoNiumXxJCz1rEHk1nYo7Yi7lJwi5dqrYUW_nbYWL-u679AfmST7ojqoO0jW-UbZFHFwQA1CZsnJYr8NTtoXs4-wpEx_Os5xaN_0WWid0B0EPkcyhCjbZ7npGdAI92n2CekJ3Wr97RmDMOKYfFYRQGrJ5PtJR6gqs3vjmYeIRXJcxUatBv7ANYi-v_fcwLX69RXJF7Dg4RL4XoODknRtoDqX1AYm5fqce7JosmkSsG5J7mB6B_K15HeWaIVxHnV9aL9XbXAOD3rFv-8aN0YfDj2q_BPX4m-NfG2rB-o0A_nISKue5pUuEyWsWizCZFxPUMUxzqo2X-kXCtC1Fly7NBb95vTy6VXnxUKlOmikV3AHEVINHUjNU6OIVBWHgRnKIqmUArZn5ZSUr4l73yJnMY37TXcNND_6nyoi0-EthHhHuDT8sXTP3s4thvifDMDjHvqD26GbC5jt4RvWBfDO77cEHAyGBGMkDT58CXnlxs7FGXaUrmaJrkQLLgTUHcAxHdexda_6nPx9wjtFts6rAiex7OHIvE1OPOvaqc1yly-xoOjhhuWbBEdmPjRmZDPES6YwBRpC3vpg0L1Mwy6kkn49RK4PldRDGe4v3rtbODEL1jJLDtOraIu-WV729XkwO-SFsAu92ixJT1IuIWPFlbHhl7-AUgexkuXjodkmDejw1Scm1Z9z5QM0Jy-KKtJTWukT-4voXa0DdqqB0teQDn3yN05FGGry1GPidiFwTz2e4SGzWeR8PJlU4ZKeKQ8y5wudmXdUF8v2PaAnBEnoJy9tOxsofqHUzKruiTgpEJKC8njwTqd7pMWqB9N1EB0kCN0ZQ0GBP1TDXVhHS4STrLQ7zTRbJaSHwEdAWyBjiHSvtEO2XzoxqGFGTUqB9wEwj_0TrlsZTy7dVEh1Pt8=w1127-h892"]}
         />
         </div>
       </div>
