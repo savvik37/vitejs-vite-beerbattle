@@ -5,6 +5,7 @@ import beerone from '/beerone.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import BlogPost from './components/BlogPost'
 import './App.css';
 
 function App() {
@@ -32,25 +33,16 @@ function App() {
           </div>
         </div>
         <div className="content">
-          <div className="postcontainer">
-            <div className="photos">
-              <Slider {...settings} className="sliderthing">
-                <div className="imagebox">
-                  <img src={img} alt="" width="300" />
-                </div>
-                <div className="imagebox">
-                  <img src={img} alt="" width="300" />
-                </div>
-                <div className="imagebox">
-                  <img src={img} alt="" width="300" />
-                </div>
-              </Slider>
-            </div>
-            <h2>Some beer fight title</h2>
-
-            <p>This is an example description of a beer post.</p>
-            <p>Some descriptions will go here.</p>
-          </div>
+        <BlogPost
+          title="My Beer Adventure 2" 
+          content="Exploring various beers from around the world!" 
+          photos={[beerone, reactLogo, viteLogo]}
+        />
+          <BlogPost 
+          title="My Beer Adventure 1" 
+          content="Exploring various beers from around the world!" 
+          photos={[beerone, reactLogo, viteLogo]}
+        />
         </div>
       </div>
     </>
