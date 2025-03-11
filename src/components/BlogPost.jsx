@@ -28,16 +28,20 @@ const BlogPost = ({ title, content, photos, r1, r2, r1name, r2name }) => {
         </div>
         <h2>{title}</h2>
         <p>{content}</p>
-        <div className="ratingBox">
-          <div className='button two'>
-            <p>{r1name}</p>
-            <p className='bolder'>{r1}</p>
+        {photos && (
+          <div className='ratingArea'>
+            <div className="ratingBox">
+              <div className='rating'>
+                <p>{r1name}</p>
+                <p className='ratingnum'>{r1}</p>
+              </div>
+              <div className='rating'>
+                <p>{r2name}</p>
+                <p className='ratingnum'>{r2}</p>
+              </div>
+            </div>
           </div>
-          <div className='button two'>
-            <p>{r2name}</p>
-            <p className='bolder'>{r2}</p>
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );
